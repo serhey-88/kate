@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+<head>
+	<meta charset="UTF-8">
+	<title>Ciklum</title>
+	<link rel="stylesheet" href='css/bundle.css'></link>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <!--[if lte IE 8]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="js/main.js"></script>
+</head>
+<body>
+	<div class="layout-container">
+		<div class="header-wrapper">
+			<header class="main-header">
+				<div class="logo">
+					<a href="https://www.microsoft.com/" class="logo__link">
+						<img src="img/microsoft.png" alt="logo" class="logo__item">
+					</a>
+				</div>
+				<nav class="navigation">
+					<ul class="navigation-menu">
+						<li class="navigation-menu-item"><span>	Store</span>
+							<!-- <a href="#" onclick="toggleActive(event); console.log(event)" class="navigation-menu-item__link "> -->
+							<!-- <div onclick="toggleActive(event); console.log(event.target.firstElementChild)" class="navigation-menu-item__link ">Store
+								<div class="navigation-menu-item-dropdown"> -->
+									<ul class="navigation-menu-item-dropdown-list">
+										<li class="navigation-menu-item-dropdown-list-item"><a href="http://www.microsoftstore.com/store/msusa/en_US/home" class="navigation-menu-item-dropdown-list-item__link">Store home</a></li>
+										<li class="navigation-menu-item-dropdown-list-item">Devices
+											<ul class="navigation-menu-item-dropdown-list">
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Microsoft Surface</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">PCs & tablets</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Xbox</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Virtual reality</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Accessories</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Windows phone</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Microsoft Band</a></li>
+											</ul>
+										</li>
+										<li class="navigation-menu-item-dropdown-list-item">Software
+											<ul class="navigation-menu-item-dropdown-list">
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Office</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Windows</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Additional software</a></li>
+											</ul>
+										</li>
+										<li class="navigation-menu-item-dropdown-list-item">Apps
+											<ul class="navigation-menu-item-dropdown-list">
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">All apps</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Window apps</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Window phone apps</a></li>
+											</ul>
+										</li>
+										<li class="navigation-menu-item-dropdown-list-item">Games
+											<ul class="navigation-menu-item-dropdown-list">
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Xbox One games</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Xbox 360 games</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">PC games</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Windows games</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Windows phone games</a></li>
+											</ul>
+										</li>
+										<li class="navigation-menu-item-dropdown-list-item">Entertanments
+											<ul class="navigation-menu-item-dropdown-list">
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">All Entertainment</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Movies and TV</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Music</a></li>
+											</ul>
+										</li>
+										<li class="navigation-menu-item-dropdown-list-item">Business & Education
+											<ul class="navigation-menu-item-dropdown-list">
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Business Store</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Educayion Store</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Developer</a></li>
+											</ul>
+										</li>
+										<li class="navigation-menu-item-dropdown-list-item">Sale
+											<ul class="navigation-menu-item-dropdown-list">
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Back-to-school essentials</a></li>
+												<li class="navigation-menu-item-dropdown-list-item"><a href="#" class="navigation-menu-item-dropdown-list-item__link">Sale</a></li>
+											</ul>
+										</li>
+										<li class="navigation-menu-item-dropdown-list-item"><a href="https://www.microsoft.com/en-us/store/gift-cards" class="navigation-menu-item-dropdown-list-item__link">Find a store</a></li>
+										<li class="navigation-menu-item-dropdown-list-item"><a href="https://www.microsoft.com/en-us/store/gift-cards" class="navigation-menu-item-dropdown-list-item__link">Gift cards</a></li>
+									</ul>
+							<!-- 	</div>
+							</div> -->
+							<!-- </a> -->
+						</li>
+						<li class="navigation-menu-item"><a href="#" onclick="alert('hello')" class="navigation-menu-item__link">Products</a></li>
+						<li class="navigation-menu-item"><a href="https://support.microsoft.com" class="navigation-menu-item__link">Support</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+</body>
+</html>
+
